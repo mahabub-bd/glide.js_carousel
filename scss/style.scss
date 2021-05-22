@@ -28,6 +28,8 @@ h1 {
   text-transform: uppercase;
   font-size: 48px;
   padding: 50px 0;
+  font-family: "Poppins", sans-serif;
+  color:purple;
 }
 img {
   width: 100%;
@@ -37,14 +39,14 @@ img {
   border: none;
   outline: none;
 }
-.nav{
-    display:flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    width:180px;
-    padding: 10px;
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 120px;
+
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translateX(-50%);
 }
-
-
-
-

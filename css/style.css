@@ -97,7 +97,7 @@ img {
   margin: 0 auto;
   width: 120px;
   position: absolute;
-  top: 95%;
+  top: 90%;
   left: 50%;
   transform: translateX(-50%);
 }

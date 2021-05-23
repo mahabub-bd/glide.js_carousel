@@ -40,12 +40,12 @@
                         class="fas fa-arrow-right"></i></button>
             </div>
             <div data-glide-el="controls[nav]" class="nav">
-                <button data-glide-dir="=0"></button >
-                <button data-glide-dir="=1"></button>
-                <button data-glide-dir="=2"></button>
-                <button data-glide-dir="=3"></button>
-                <button data-glide-dir="=4"></button>
-                <button data-glide-dir="=5"></button>
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+                <button class="glide__bullet" data-glide-dir="=3"></button>
+                <button class="glide__bullet" data-glide-dir="=4"></button>
+                <button class="glide__bullet" data-glide-dir="=5"></button>
             </div>
         </div>
 
@@ -54,9 +54,11 @@
 
 
 
-
+    <!-- Fontawesome JS -->
 
     <script src="js/all.js"></script>
+
+    <!-- Glide JS  -->
     <script src="js/glide.min.js"></script>
 
 
@@ -64,7 +66,10 @@
         const config = {
             type: 'carousel',
             autoplay: 2000 | true,
-
+            activeNav:true,
+            
+            gap: 10,
+            
             breakpoints: {
                 2400: {
                     perView: 3

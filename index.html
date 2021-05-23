@@ -39,7 +39,7 @@
                 <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i
                         class="fas fa-arrow-right"></i></button>
             </div>
-            <div data-glide-el="controls[nav]" class="nav">
+            <div class="glide__bullets" data-glide-el="controls[nav]" >
                 <button class="glide__bullet" data-glide-dir="=0"></button>
                 <button class="glide__bullet" data-glide-dir="=1"></button>
                 <button class="glide__bullet" data-glide-dir="=2"></button>
@@ -54,7 +54,7 @@
 
 
 
-    <!-- Fontawesome JS -->
+    <!-- Font awesome JS -->
 
     <script src="js/all.js"></script>
 
@@ -66,10 +66,10 @@
         const config = {
             type: 'carousel',
             autoplay: 2000 | true,
-            activeNav:true,
-            
+            activeNav: true,
+
             gap: 10,
-            
+
             breakpoints: {
                 2400: {
                     perView: 3
@@ -78,7 +78,7 @@
                     perView: 3
                 },
                 800: {
-                    perView: 2
+                    perView: 1
                 },
                 600: {
                     perView: 1

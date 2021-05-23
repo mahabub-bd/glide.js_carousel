@@ -7,8 +7,8 @@
   text-transform: uppercase;
   padding: 5px 8px;
   background-color: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.1);
   text-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
   opacity: 1;
@@ -41,7 +41,7 @@
 .glide__bullets {
   position: absolute;
   z-index: 2;
-  bottom: 2em;
+  bottom: 1em;
   left: 50%;
   display: inline-flex;
   list-style: none;
